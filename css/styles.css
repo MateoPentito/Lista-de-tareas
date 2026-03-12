@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2933;
+}
+
+.carga-tarea {
+    background-color: #b1bdfd;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#input-tarea {
+    width: 50%;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border: 1px solid #d1d5db;
+    outline: none;
+}
+
+#boton-cargarTarea {
+    background-color: #3b82f6;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+}
+
+#boton-cargarTarea:hover {
+    background-color: #2563eb;
+    cursor: pointer;
+}
+
+.mostrar-tarea {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.texto-area {
+    margin: 10px 0;
+}
+
+.boton-modificar {
+    background-color: #f59e0b;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    margin: 10px;
+}
+
+.boton-eliminar {
+    background-color: #ef4444;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    margin: 10px;
+}
+
+.boton-modificar:hover {
+    cursor: pointer;
+    background-color: #d97706;
+}
+
+.boton-eliminar:hover {
+    cursor: pointer;
+    background-color: #dc2626;
+}
