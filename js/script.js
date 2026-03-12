@@ -52,7 +52,7 @@ function crearTarea(texto) {
     div.classList.add("mostrar-tarea");
 
     const titulo = document.createElement("h3");
-    titulo.textContent = "Tarea: " + cantidadDeTareas;
+    titulo.textContent = cantidadDeTareas;
 
     const detalle = document.createElement("p");
     detalle.textContent = texto;
